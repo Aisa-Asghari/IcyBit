@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Bokor");
+@import url("https://fonts.googleapis.com/css?family=Kodchasan");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  color: #ffff !important;
+}
+
+body {
+  background-color: #001534 !important;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: Kodchasan;
+  font-size: 35px;
+}
+
+header h1 {
+  font-family: Bokor;
+  font-size: 50px;
+}
+
+header a {
+  font-family: Kodchasan;
+  font-size: 20px;
+}
+
+header #searchDiv {
+  background-color: #fffefe66;
+  height: 30px;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+header button {
+  background-color: #fa2870;
+  border-radius: 22.5px;
+  border: none;
+  width: 100%;
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+header .homeTab a {
+  color: #ff3278 !important;
+  text-decoration: none;
+}
+
+/*search*/
+#boxSearch {
+  height: 47px;
+  background-color: #0f2950e8;
+  border-radius: 20px;
+}
+
+#boxSearch input {
+  font-family: Kodchasan;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  height: 34px;
+}
+
+#boxSearch input::placeholder {
+  color: #ffff;
+}
+
+#boxSearch img {
+  width: 16.7px;
+  height: 16.7px;
+  cursor: pointer;
+}
+
+#resultcard {
+  height: 200px;
+  border-radius: 20px;
+  background-color: #d9d9d940;
+  padding-left: 5%;
+}
+
+#resultcard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+/*carousel*/
+.carousel {
+  width: 588px;
+  height: 349px;
+}
+
+.carousel img {
+  width: 588px;
+  height: 349px;
+  border-radius: 20px;
+}
+
+.carousel-caption {
+  top: 80%;
+  left: 75% !important;
+}
+
+.carousel-caption button {
+  background-color: #ff32788f;
+  width: 150px;
+  height: 42.5px;
+  border-radius: 50px;
+  font-family: Kodchasan;
+  border: none;
+  font-size: 14px;
+}
+
+.carousel-caption img {
+  width: 35px;
+  height: 45px;
+  margin-left: 20%;
+}
+
+/*music*/
+#details .bg-blur img {
+  height: 416px;
+  filter: blur(3px);
+  border-radius: 20px;
+}
+
+#details button {
+  width: 120px;
+  height: 34px;
+  border-radius: 20px;
+  background-color: #ffffff36;
+  border: none;
+  font-size: 12px;
+  font-family: Kodchasan;
+}
+
+#details .downlod-high-medium button {
+  background-color: rgb(250, 40, 112, 0.35);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  border-radius: 5px;
+}
+
+#details .top-cart {
+  height: 396px;
+  background-color: #d9d9d940;
+  border-radius: 15px;
+  top: -350px;
+  padding-top: 20px;
+}
+
+#details .top-cart img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#details .bottom-cart {
+  top: -450px;
+  z-index: 5;
+  height: 225px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding-bottom: 15%;
+}
+
+#details .info {
+  top: -425px;
+}
+
+#details .info span {
+  font-family: Kodchasan;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#details .info img {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#details .progressbar-div {
+  width: 90%;
+  margin: 0 auto;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.21);
+  position: relative;
+  cursor: pointer;
+}
+
+#details .progress-div {
+  height: 100%;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+}
+
+#details .duration-ct {
+  font-size: 10px;
+}
+
+#details .a-details {
+  font-family: Kodchasan;
+  font-size: 20px;
+}
+
+#details .play img {
+  width: 20px;
+  height: 20px;
+  margin: 5%;
+}
+
+#details .play button {
+  border: none;
+  background: none;
+}
+
+#details .btn-play-pause img {
+  width: 35px;
+  height: 35px;
+}
+
+@media only screen and (max-width: 750px) {
+  #details .top-cart {
+    top: 0;
+    background: none;
+  }
+
+  #details .bottom-cart {
+    top: -60px;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+  }
+
+  #details .top-cart img {
+    width: 75%;
+    height: 100%;
+    border-radius: 12.5px;
+  }
+
+  #details .downlod-high-medium button {
+    height: 35px;
+    width: 125px;
+  }
+
+  .carousel-caption {
+    left: 70% !important;
+  }
+
+  #details .info {
+    top: -50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header a {
+    font-size: 19px;
+  }
+
+  .carousel img {
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .carousel-caption {
+    width: 70%;
+    top: 62.5%;
+    left: 15% !important;
+  }
+
+  .carousel-caption button {
+    width: 85px;
+    height: 35px;
+    border-radius: 12.5px;
+    font-size: 13px;
+  }
+
+  .carousel-caption img {
+    display: none;
+  }
+
+  #details .top-cart {
+    top: 0;
+    background: none;
+  }
+
+  #details .top-cart img {
+    width: 75%;
+    height: 75%;
+    border-radius: 12.5px;
+  }
+
+  #details .bottom-cart {
+    top: -50px;
+    opacity: 75%;
+  }
+
+  #details .bottom-cart img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #details .btn-play-pause img {
+    width: 35px;
+    height: 35px;
+  }
+
+  #details .info {
+    top: -45px;
+  }
+
+  #details .info span {
+    font-size: 19px;
+  }
+
+  #resultcard .info {
+    flex: 0 0 auto;
+    width: 55%;
+  }
+}
