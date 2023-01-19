@@ -20,4 +20,4 @@ Search Page
 
 Song Page
 ![image](https://user-images.githubusercontent.com/67589592/213362244-e3878ac5-26c7-44b0-9724-9c7637396b26.png)
-![image](https://user-images.githubusercontent.com/67589592/213362722-67c5919a-7ea7-47d4-aab8-0d5e1b9a19e1.png) ![image](https://user-images.githubusercontent.com/67589592/213363108-28e9cd54-8825-4966-8e32-7449fc871183.png)
+![image](https://user-images.githubusercontent.com/67589592/213362722-67c5919a-7ea7-47d4-aab8-0d5e1b9a19e1.png) ![image](https://user-images.githubusercontent.com/67589592/213363496-459ee486-0ef4-476e-b7d5-95ac73fcf530.png)
