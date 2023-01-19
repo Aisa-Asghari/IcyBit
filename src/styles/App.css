@@ -270,6 +270,7 @@ header .homeTab a {
 
 .trendingArtist .Artists {
   color: #ff3278 !important;
+  font-family: Kodchasan;
 }
 
 @media only screen and (max-width: 750px) {

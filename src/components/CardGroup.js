@@ -12,9 +12,9 @@ const CardGroup = ({ title, state }) => {
             <h2>{title}</h2>
           </div>
           {state.map((song) => (
-            <div className="col-md-4 col-sm-12" key={song.id}>
+            <div className="col-md-3 col-sm-12 col-12" key={song.id}>
               <div className="container-play-icon position-relative overflow-hidden w-md-75 w-sm-100 d-flex justify-content-center">
-                <img
+                <img className="rounded-5"
                   src={song.album.image.thumbnail.url}
                   alt={song.album.name.replace("Single", "")}
                 />

@@ -9,7 +9,7 @@ const getSlider = async () => {
 
 const getLatestSong = async () => {
   const response = await axios.get(
-    "https://api-beta.melobit.com/v1/song/new/0/3"
+    "https://api-beta.melobit.com/v1/song/new/4/4"
   );
   return response.data.results;
 };
@@ -21,4 +21,11 @@ const getTrendingArtist = async () => {
   return response.data.results;
 };
 
-export { getSlider, getLatestSong, getTrendingArtist };
+const getTopDaySong = async () => {
+  const response = await axios.get(
+    "https://api-beta.melobit.com/v1/song/top/day/0/4"
+  );
+  return response.data.results;
+};
+
+export { getSlider, getLatestSong, getTrendingArtist, getTopDaySong };
