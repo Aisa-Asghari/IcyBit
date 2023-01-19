@@ -15,7 +15,7 @@ const CardGroup = ({ title, state }) => {
             <div className="col-md-4 col-sm-12" key={song.id}>
               <div className="container-play-icon position-relative overflow-hidden w-md-75 w-sm-100 d-flex justify-content-center">
                 <img
-                  src={song.album.image.thumbnail.url}                  
+                  src={song.album.image.thumbnail.url}
                   alt={song.album.name.replace("Single", "")}
                 />
                 <Link

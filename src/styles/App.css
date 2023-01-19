@@ -259,6 +259,19 @@ header .homeTab a {
   bottom: 20px;
 }
 
+/*trending artists*/
+.trendingArtist {
+  background-color: #161d35;
+}
+
+.trendingArtist img {
+  border-radius: 100%;
+}
+
+.trendingArtist .Artists {
+  color: #ff3278 !important;
+}
+
 @media only screen and (max-width: 750px) {
   #details .top-cart {
     top: 0;
@@ -304,7 +317,7 @@ header .homeTab a {
     font-size: 19px;
   }
 
-  .carousel{
+  .carousel {
     height: 150px;
   }
 

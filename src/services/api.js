@@ -14,4 +14,11 @@ const getLatestSong = async () => {
   return response.data.results;
 };
 
-export { getSlider, getLatestSong };
+const getTrendingArtist = async () => {
+  const response = await axios.get(
+    "https://api-beta.melobit.com/v1/artist/trending/0/4"
+  );
+  return response.data.results;
+};
+
+export { getSlider, getLatestSong, getTrendingArtist };
