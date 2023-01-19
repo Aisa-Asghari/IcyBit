@@ -3,6 +3,7 @@ import Carousel from "./Carousel";
 import LatestSong from "./LatestSong";
 import Trendingartist from "./Trendingartist";
 import Topdaysong from "./Topdaysong";
+import Topweeksong from "./Topweeksong";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <Carousel />
       <LatestSong />
       <Trendingartist />
-      <Topdaysong />
+      <Topweeksong />
     </div>
   );
 };
