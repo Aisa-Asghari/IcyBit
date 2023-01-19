@@ -11,6 +11,7 @@ const Home = () => {
       <Carousel />
       <LatestSong />
       <Trendingartist />
+      <Topdaysong />
       <Topweeksong />
     </div>
   );
