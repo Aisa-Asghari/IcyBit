@@ -229,6 +229,36 @@ header .homeTab a {
   height: 35px;
 }
 
+/*card group*/
+#cardgroup {
+  background-color: #161d35;
+}
+
+.link-play {
+  bottom: -50px;
+  right: 55%;
+  transition: 0.5s;
+}
+
+.link-fav {
+  bottom: -50px;
+  right: 30%;
+  transition: 0.5s;
+}
+
+.container-play-icon img {
+  border-radius: 20px;
+}
+
+.container-play-icon {
+  cursor: pointer;
+}
+
+.container-play-icon:hover .link-play,
+.container-play-icon:hover .link-fav {
+  bottom: 20px;
+}
+
 @media only screen and (max-width: 750px) {
   #details .top-cart {
     top: 0;
@@ -259,11 +289,23 @@ header .homeTab a {
   #details .info {
     top: -50px;
   }
+
+  .link-play {
+    right: 57.5%;
+  }
+
+  .link-fav {
+    right: 30%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   header a {
     font-size: 19px;
+  }
+
+  .carousel{
+    height: 150px;
   }
 
   .carousel img {
@@ -325,5 +367,13 @@ header .homeTab a {
   #resultcard .info {
     flex: 0 0 auto;
     width: 55%;
+  }
+
+  .link-play {
+    right: 65%;
+  }
+
+  .link-fav {
+    right: 20%;
   }
 }

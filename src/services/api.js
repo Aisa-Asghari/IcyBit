@@ -7,4 +7,11 @@ const getSlider = async () => {
   return response.data.results;
 };
 
-export { getSlider };
+const getLatestSong = async () => {
+  const response = await axios.get(
+    "https://api-beta.melobit.com/v1/song/new/0/3"
+  );
+  return response.data.results;
+};
+
+export { getSlider, getLatestSong };
